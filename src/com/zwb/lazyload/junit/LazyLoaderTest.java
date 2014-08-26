@@ -70,7 +70,6 @@ class LoaderClazzInt implements ILoader<Integer>
 		LazyLoaderTest.intCnt++;
 		return 42;
 	}
-	
 }
 
 class LoaderClazzString implements ILoader<String>
@@ -81,7 +80,6 @@ class LoaderClazzString implements ILoader<String>
 		LazyLoaderTest.stringCnt++;
 		return "zweiundvierzig";
 	}
-	
 }
 
 class LoaderClazzList implements ILoader
@@ -94,5 +92,4 @@ class LoaderClazzList implements ILoader
 		list.addAll(Arrays.asList("foo","bar","baz"));
 		return list;
 	}
-	
 }
